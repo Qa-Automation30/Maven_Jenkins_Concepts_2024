@@ -2,8 +2,6 @@ package base;
 
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -11,10 +9,12 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class BaseTest {
-    FileInputStream fis;
-    Properties prop;
-    @BeforeSuite
-    void setup() throws IOException {
+    static FileInputStream fis;
+    static Properties prop;
+
+    public BaseTest() throws IOException {
+        System.out.println("comes into before suite");
+
         fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\prop.config");
         prop = new Properties();
         prop.load(fis);
@@ -29,7 +29,6 @@ public class BaseTest {
         else {
             setupBrowser();
         }
-
     }
     void setupBrowser(){
            if(System.getProperty("browser").equalsIgnoreCase("chrome")){

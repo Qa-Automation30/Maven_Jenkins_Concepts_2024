@@ -3,6 +3,8 @@ package SanitySuite;
 import base.BaseTest;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
+
 /**
  * Jenkins userName and password
  * It will run on this URL: http://localhost:8080/
@@ -10,6 +12,10 @@ import org.testng.annotations.Test;
  *   Password : Admin@12345
  */
 public class SanityOne extends BaseTest {
+    public SanityOne() throws IOException {
+        super();
+    }
+
     @Test
     void sanityOne_1(){
         System.out.println("sanityOne_1");
