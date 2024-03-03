@@ -1,8 +1,9 @@
 package RegressionSuite;
 
+import base.BaseTest;
 import org.testng.annotations.Test;
 
-public class RegOne {
+public class RegOne extends BaseTest {
 
     @Test
     void regTestOne_1(){

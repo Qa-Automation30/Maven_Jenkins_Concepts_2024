@@ -1,5 +1,6 @@
 package SanitySuite;
 
+import base.BaseTest;
 import org.testng.annotations.Test;
 
 /**
@@ -8,7 +9,7 @@ import org.testng.annotations.Test;
  *   userName : codeTest
  *   Password : Admin@12345
  */
-public class SanityOne {
+public class SanityOne extends BaseTest {
     @Test
     void sanityOne_1(){
         System.out.println("sanityOne_1");
