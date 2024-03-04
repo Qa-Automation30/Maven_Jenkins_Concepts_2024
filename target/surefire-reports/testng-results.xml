@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-03T21:05:39 IST" name="Regression suite test" finished-at="2024-03-03T21:05:40 IST" duration-ms="109">
+  <suite started-at="2024-03-04T10:04:20 IST" name="Regression suite test" finished-at="2024-03-04T10:04:20 IST" duration-ms="66">
     <groups>
     </groups>
-    <test started-at="2024-03-03T21:05:39 IST" name="regression test" finished-at="2024-03-03T21:05:40 IST" duration-ms="109">
+    <test started-at="2024-03-04T10:04:20 IST" name="regression test" finished-at="2024-03-04T10:04:20 IST" duration-ms="66">
+      <class name="RegressionSuite.RegTwo">
+        <test-method signature="regTestTwo_1()[pri:0, instance:RegressionSuite.RegTwo@10e92f8f]" started-at="2024-03-04T10:04:20 IST" name="regTestTwo_1" finished-at="2024-03-04T10:04:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regTestTwo_1 -->
+        <test-method signature="regTestTwo_2()[pri:0, instance:RegressionSuite.RegTwo@10e92f8f]" started-at="2024-03-04T10:04:20 IST" name="regTestTwo_2" finished-at="2024-03-04T10:04:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regTestTwo_2 -->
+      </class> <!-- RegressionSuite.RegTwo -->
       <class name="RegressionSuite.RegOne">
-        <test-method signature="regTestOne_1()[pri:0, instance:RegressionSuite.RegOne@1184ab05]" started-at="2024-03-03T21:05:40 IST" name="regTestOne_1" finished-at="2024-03-03T21:05:40 IST" duration-ms="16" status="PASS">
+        <test-method signature="regTestOne_1()[pri:0, instance:RegressionSuite.RegOne@3aefe5e5]" started-at="2024-03-04T10:04:20 IST" name="regTestOne_1" finished-at="2024-03-04T10:04:20 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- regTestOne_1 -->
-        <test-method signature="regTestOne_2()[pri:0, instance:RegressionSuite.RegOne@1184ab05]" started-at="2024-03-03T21:05:40 IST" name="regTestOne_2" finished-at="2024-03-03T21:05:40 IST" duration-ms="0" status="PASS">
+        <test-method signature="regTestOne_2()[pri:0, instance:RegressionSuite.RegOne@3aefe5e5]" started-at="2024-03-04T10:04:20 IST" name="regTestOne_2" finished-at="2024-03-04T10:04:20 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- regTestOne_2 -->
