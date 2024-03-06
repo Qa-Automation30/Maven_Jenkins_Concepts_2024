@@ -1,0 +1,7 @@
+base\BaseTest.class
+SanitySuite\SanityTwo.class
+RegressionSuite\RegTwo.class
+SmokeSuite\SmokeOne.class
+RegressionSuite\RegOne.class
+SanitySuite\SanityOne.class
+concept_1_Jenkins\One.class
