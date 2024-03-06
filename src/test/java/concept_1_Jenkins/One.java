@@ -11,7 +11,7 @@ import java.time.Duration;
 
 public class One {
     WebDriver driver;
-    @Parameters("testBrowser")
+   // @Parameters("testBrowser")
     @Test
     void test(String param) throws InterruptedException {
        /* WebDriverManager.chromedriver().setup();
@@ -21,6 +21,6 @@ public class One {
         Thread.sleep(2000);
         System.out.println(driver.getTitle());
         driver.quit();*/
-        System.out.println(param);
+        System.out.println("I am here please test me");
     }
 }
