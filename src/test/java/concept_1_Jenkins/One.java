@@ -13,7 +13,7 @@ public class One {
     WebDriver driver;
    // @Parameters("testBrowser")
     @Test
-    void test(String param) throws InterruptedException {
+    void test() throws InterruptedException {
        /* WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
