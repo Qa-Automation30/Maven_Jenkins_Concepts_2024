@@ -1,7 +1,6 @@
 package RegressionSuite;
 
 import base.BaseTest;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
