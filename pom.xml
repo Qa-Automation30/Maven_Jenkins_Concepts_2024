@@ -26,6 +26,11 @@
                             <suiteXmlFiles>
                                 <suiteXmlFile>H:\Maven_Jenkins_Concepts_2024\regression_suite.xml</suiteXmlFile>
                             </suiteXmlFiles>
+<!--                            <systemPropertyVariables>-->
+<!--                                &lt;!&ndash;suppress UnresolvedMavenProperty &ndash;&gt;-->
+<!--                                <browser>${testBrowser}</browser>-->
+
+<!--                            </systemPropertyVariables>-->
                         </configuration>
                     </plugin>
                 </plugins>
